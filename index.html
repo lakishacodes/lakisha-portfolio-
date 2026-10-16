@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakisha | My Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8fb;
+      color: #493642;
+      line-height: 1.7;
+    }
+    header {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: #fff;
+    }
+    .logo { color: #c45c91; font-weight: bold; font-size: 22px; }
+    nav a {
+      color: #634557;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px 80px;
+      background: linear-gradient(135deg, #ffe0ed, #f8e7ff);
+    }
+    .tag {
+      display: inline-block;
+      background: white;
+      padding: 6px 15px;
+      border-radius: 30px;
+      color: #b54f84;
+      font-size: 13px;
+    }
+    h1 { font-size: clamp(36px, 7vw, 60px); line-height: 1.15; }
+    h1 span { color: #c45c91; }
+    .hero p { max-width: 520px; margin: 20px auto; }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 30px;
+      background: #c45c91;
+      color: white;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+    section { padding: 55px 8%; }
+    h2 { text-align: center; color: #a84b7a; margin-bottom: 25px; }
+    .card {
+      max-width: 720px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border: 1px solid #f4dce8;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px #8d52700d;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .tile {
+      background: #fff;
+      border: 1px solid #f4dce8;
+      padding: 22px;
+      border-radius: 18px;
+      text-align: center;
+    }
+    .tile h3 { color: #b65385; margin-top: 0; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #ffe8f1;
+      font-size: 14px;
+    }
+    a:focus-visible { outline: 2px solid #a84b7a; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Lakisha ♡</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="tag">Welcome to my little corner of the internet ✿</span>
+      <h1>Hi, I'm <span>Lakisha!</span></h1>
+      <p>A BCA student exploring technology, creativity, and the world of web development. I'm learning something new every day.</p>
+      <a class="btn" href="#about">Get to know me ↓</a>
+    </section>
+
+    <section id="about">
+      <h2>♡ About Me</h2>
+      <div class="card">
+        <p>Hey! I'm Lakisha, a first-year BCA student at Amity University Online. I'm interested in technology, digital content creation, and building things on the internet.</p>
+        <p>This is my first portfolio website and the beginning of my coding journey. I'm excited to keep learning, experimenting, and turning ideas into projects!</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>✿ What I'm Learning</h2>
+      <div class="skills">
+        <div class="tile"><h3>HTML</h3><p>Building web pages</p></div>
+        <div class="tile"><h3>CSS</h3><p>Designing websites</p></div>
+        <div class="tile"><h3>Creativity</h3><p>Sharing fresh ideas</p></div>
+        <div class="tile"><h3>Content</h3><p>Digital storytelling</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>♡ My Projects</h2>
+      <div class="projects">
+        <div class="tile">
+          <h3>My First Portfolio</h3>
+          <p>A pastel-pink website built with HTML and CSS.</p>
+          <p><strong>Status:</strong> My first project!</p>
+        </div>
+        <div class="tile">
+          <h3>More Coming Soon</h3>
+          <p>I'm learning new skills and planning more projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect ♡</h2>
+      <div class="card" style="text-align:center">
+        <p>I'm always learning and exploring new ideas.</p>
+        <a class="btn" href="https://github.com/">Find me on GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with ♡ by Lakisha · My coding journey begins here</footer>
+</body>
+</html>
